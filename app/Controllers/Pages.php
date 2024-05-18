@@ -2,15 +2,27 @@
 
 namespace App\Controllers;
 
-class Pages extends BaseController
+use CodeIgniter\Controller;
+
+class Pages extends Controller
 {
     public function index()
     {
-        return view('welcome-message');
+        return view('welcome_message');
     }
 
     public function view(string $page = 'home')
     {
-        
+        if (! is_file(APPPATH . 'Views/pages/' . $page . '.php')) {
+            // Whoops, we don't have a page for that!
+            throw new PageNotFoundException($page);
+        }
+
+        $data['title'] = ucfirst($page); // Capitalize the first letter
+
+        return view('templates/header', $data)
+            . view('pages/' . $page)
+            . view('templates/footer');
     }
 }
+
