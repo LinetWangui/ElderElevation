@@ -1,0 +1,16 @@
+{
+  "/api/profile/route": "app/api/profile/route.js",
+  "/admin/dashboard/page": "app/admin/dashboard/page.js",
+  "/admin/dashboard/displayDetails/usersDisplay/page": "app/admin/dashboard/displayDetails/usersDisplay/page.js",
+  "/admin/dashboard/groupSparkChart/page": "app/admin/dashboard/groupSparkChart/page.js",
+  "/admin/dashboard/pieCharts/page": "app/admin/dashboard/pieCharts/page.js",
+  "/api/groupsPie/route": "app/api/groupsPie/route.js",
+  "/api/groupsPieMem/route": "app/api/groupsPieMem/route.js",
+  "/admin/dashboard/caregiverpieCharts/page": "app/admin/dashboard/caregiverpieCharts/page.js",
+  "/api/caregiverPie/route": "app/api/caregiverPie/route.js",
+  "/api/caregiversStatusPie/route": "app/api/caregiversStatusPie/route.js",
+  "/admin/dashboard/displayDetails/groupsDisplay/page": "app/admin/dashboard/displayDetails/groupsDisplay/page.js",
+  "/api/allGroupsDisplay/route": "app/api/allGroupsDisplay/route.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/page": "app/page.js"
+}
