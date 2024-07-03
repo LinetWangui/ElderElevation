@@ -62,22 +62,72 @@ Output- Group confirmation, Caregiver confirmation
 This project is organized into the following main folders and their contents:
 
 - **Source Folder**
-  - `app/`
-    - `about us/`
-    - `admin/`
-      - `caregivers/`
-      - `dashboard/`
-      - `groups/`
-    - `api/`
-    - `caregivers/`
-    - `categories/`
-    - `contacts/`
-    - `login/`
-    - `profile/`
-    - `register/`
-  - `components/`
+  ```
+  C:.
+|   .env
+|   .gitignore
+|   db.sqlite3
+|   manage.py
+|   prototype1
+|   README.md
+|   requirements.txt
+|   tree_structure.txt
+ +---src
+    +---app
+    ¦   +---aboutUs
+    ¦   +---admin
+    ¦   ¦   +---caregivers
+    ¦   ¦   ¦   +---all        
+    ¦   ¦   +---dashboard  
+    ¦   ¦   ¦   +---displayDetails
+    ¦   ¦   ¦   ¦   +---caregiversDisplay
+    ¦   ¦   ¦   ¦   +---contactDisplay
+    ¦   ¦   ¦   ¦   +---groupsDisplay
+    ¦   ¦   ¦   ¦   +---usersDisplay
+    ¦   ¦   ¦   +---groupAccORejPie
+    ¦   ¦   +---groups
+    ¦   ¦       +---all
+    ¦   ¦       +---rejected
+    ¦   +---api
+    ¦   ¦   +---adminCaregivers
+    ¦   ¦   +---allGroups
+    ¦   ¦   +---allGroupsDisplay
+    ¦   ¦   +---allUsersDisplay    
+    ¦   ¦   +---auth
+    ¦   ¦   +---caregiver
+    ¦   ¦   +---caregiverPi
+    ¦   ¦   +---caregivers
+    ¦   ¦   +---caregiversStatusPie
+    ¦   ¦   +---category
+    ¦   ¦   +---contact
+    ¦   ¦   +---forget
+    ¦   ¦   +---group
+    ¦   ¦   +---joinGroup
+    ¦   ¦   +---profile
+    ¦   ¦   +---register
+    ¦   ¦   +---rejectedGroups         
+    ¦   +---caregiver
+    ¦   +---categories
+    ¦   +---contact
+    ¦   +---groups
+    ¦   +---locked
+    ¦   +---login
+    ¦   +---models
+    ¦   +---profile
+    ¦   +---register              
+    +---components
+        ¦   AppContext.js
+        ¦   SessionLock.js
+        ¦   UseProfile.js
+        ¦   
+        +---icons
+        +---layout
+            +---Hero
+                    Hero.js
+                    Hero.module.css
+       ```
+* File tree generated using command `tree /F /A > tree_structure.txt`
 
-### Key Files
 
 #### Main Files and Their Roles
 
