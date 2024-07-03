@@ -8,24 +8,31 @@ Among the sections this platform will have include social networking, hobby and 
 
 ## Project Setup/Installation Instructions
 
+Before you begin, ensure you have the following installed on your machine:
+- **Node.js**: JavaScript runtime environment.
+- **npm** (Node Package Manager): Package manager for Node.js, used to install project dependencies.
+
 ### Dependencies
-
-
-
+* React
+* Next.js
+* React DOM
 
 ### Installation Steps
+1. Clone the repository into a directory of your choice:
+   ```bash
+   git clone https://github.com/fancykariuki/ElderElevation.git
+   cd elderelevation
+   ```
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+   
+3. Create a virtual environment and run the development server:
+   ```bash
+   npm run dev
+   ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
