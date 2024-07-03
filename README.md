@@ -14,8 +14,11 @@ Before you begin, ensure you have the following installed on your machine:
 
 ### Dependencies
 * React
+  https://reactnative.dev
 * Next.js
+  https://nextjs.org/docs
 * React DOM
+  https://www.npmjs.com/package/react-dom
 
 ### Installation Steps
 1. Clone the repository into a directory of your choice:
@@ -41,8 +44,8 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Usage Instructions
-
 ### How to Run
+
 ## Project Structure
 
 ### Overview
