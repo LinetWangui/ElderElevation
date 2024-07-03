@@ -1,24 +1,27 @@
 # ElderElevation: A Social Hobbies-based Platform for the Elderly
-ElderElevation aims to provide the elderly with a platform catering to their social requirements. These include social networking, leisure activities, and caregiver support and resources.
 
-## About the Project
-
-Among the sections this platform will have include social networking, hobby and leisure activities recommendations, and caregiver support and resources. The project is anticipated to result in better social networks for senior citizens as the overall goal is to lessen the effects of social isolation and support seniors’ overall well-being by making accessible tools available and fostering community relationships.
+![License MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 
-## Project Setup/Installation Instructions
+
+## Description
+ElderElevation aims to provide the elderly with a platform catering to their social requirements. These include social networking, leisure activities, and caregiver support and resources. Among the sections this platform will have include social networking, hobby and leisure activities recommendations, and caregiver support and resources. The project is anticipated to result in better social networks for senior citizens as the overall goal is to lessen the effects of social isolation and support seniors’ overall well-being by making accessible tools available and fostering community relationships.
+
+
+## Project Setup
 
 Before you begin, ensure you have the following installed on your machine:
 - **Node.js**: JavaScript runtime environment.
 - **npm** (Node Package Manager): Package manager for Node.js, used to install project dependencies.
 
 ### Dependencies
-* React
-  https://reactnative.dev
-* Next.js
-  https://nextjs.org/docs
-* React DOM
-  https://www.npmjs.com/package/react-dom
+The system requires the following libraries, packages, and frameworks:
+- *Javascript* - Programming language (https://devdocs.io/javascript)
+- *React* - A JavaScript library for building user interfaces (https://reactnative.dev)
+- *Next.js* - A React framework that enables server-side rendering and static site generation (https://nextjs.org/docs)
+- *HTML* - Markup language for structuring web pages
+- *CSS* - Styling for web pages (using TailwindCSS)
+- *MongoDB* - Database management system (https://www.mongodb.com/docs/)
 
 ### Installation Steps
 1. Clone the repository into a directory of your choice:
@@ -36,18 +39,24 @@ Before you begin, ensure you have the following installed on your machine:
    ```bash
    npm run dev
    ```
-
+   
+## Usage Instructions
+### How to Run
+Ensure the virtual environment is setup.
+Run the server:
+```bash
+   npm run dev
+   ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Usage Instructions
-### How to Run
+### Input/Output
+Input- User details,group requests,caregiver request
+Output- Group confirmation, Caregiver confirmation
 
 ## Project Structure
-
 ### Overview
 
 This project is organized into the following main folders and their contents:
