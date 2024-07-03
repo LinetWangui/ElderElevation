@@ -1,4 +1,10 @@
 # ElderElevation: A Social Hobbies-based Platform for the Elderly
+![Static Badge](https://img.shields.io/badge/!%5BLicense%3A%20MIT%5D(https%3A%2F%2Fimg.shields.io%2Fbadge%2Flicense-MIT-green))
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 ElderElevation aims to provide the elderly with a platform catering to their social requirements. These include social networking, leisure activities, and caregiver support and resources.
 
@@ -10,7 +16,13 @@ Among the sections this platform will have include social networking, hobby and 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Project Setup/Installation Instructions
+
+### Dependencies
+
+
+
+### Installation Steps
 
 First, run the development server:
 
@@ -30,7 +42,9 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Usage Instructions
 
+### How to Run
 ## Project Structure
 
 ### Overview
@@ -88,6 +102,14 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## License
+## Additional Sections
+### Project Status
+Pending
 
-This project is MIT licensed.
+### Known Issues
+None at the moment
+
+### Acknowledgements
+
+
+
