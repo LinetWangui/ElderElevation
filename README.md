@@ -61,9 +61,9 @@ Output- Group confirmation, Caregiver confirmation
 
 This project is organized into the following main folders and their contents:
 
-- **Source Folder**
-  ```
-  C:.
+ **Source Folder**
+```
+C:.
 |   .env
 |   .gitignore
 |   db.sqlite3
@@ -125,7 +125,7 @@ This project is organized into the following main folders and their contents:
             +---Hero
                     Hero.js
                     Hero.module.css
-       ```
+```
 * File tree generated using command `tree /F /A > tree_structure.txt`
 
 
