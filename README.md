@@ -1,11 +1,4 @@
 # ElderElevation: A Social Hobbies-based Platform for the Elderly
-![Static Badge](https://img.shields.io/badge/!%5BLicense%3A%20MIT%5D(https%3A%2F%2Fimg.shields.io%2Fbadge%2Flicense-MIT-green))
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
 ElderElevation aims to provide the elderly with a platform catering to their social requirements. These include social networking, leisure activities, and caregiver support and resources.
 
 ## About the Project
