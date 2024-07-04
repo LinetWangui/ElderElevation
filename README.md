@@ -54,6 +54,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ### Input/Output
 Input- User details,group requests,caregiver request
+
 Output- Group confirmation, Caregiver confirmation
 
 ## Project Structure
@@ -66,9 +67,6 @@ This project is organized into the following main folders and their contents:
 C:.
 |   .env
 |   .gitignore
-|   db.sqlite3
-|   manage.py
-|   prototype1
 |   README.md
 |   requirements.txt
 |   tree_structure.txt
