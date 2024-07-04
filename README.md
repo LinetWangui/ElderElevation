@@ -9,6 +9,7 @@ ElderElevation aims to provide the elderly with a platform catering to their soc
 
 
 ## Project Setup
+### Requirements
 
 Before you begin, ensure you have the following installed on your machine:
 - **Node.js**: JavaScript runtime environment.
