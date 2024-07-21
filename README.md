@@ -147,7 +147,7 @@ C:.
 
 ## Additional Sections
 ### Project Status
-Pending
+Complete
 
 ### Known Issues
 None at the moment
